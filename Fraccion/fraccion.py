@@ -8,7 +8,7 @@ class Fraccion:
         print (self.numerador,"/",self.denominador)
 
     def sumar (self, fraccion2):
-        #inicializo la variable resultado
+        #inicializo la variable "resultado"
         resultado = Fraccion(1,1)
         #metodo mariposa
         resultado.numerador = self.numerador * fraccion2.denominador + fraccion2.numerador * self.denominador
